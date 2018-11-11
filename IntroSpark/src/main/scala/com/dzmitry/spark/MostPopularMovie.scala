@@ -1,7 +1,11 @@
 package com.dzmitry.spark
 
+import java.nio.charset.CodingErrorAction
+
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.sql.SparkSession
+
+import scala.io.{Codec, Source}
 
 
 object MostPopularMovie {
@@ -12,6 +16,23 @@ object MostPopularMovie {
     (movieId,1)
   }
 
+  def LoadMovieNames() : Map[Int,String] = {
+
+    implicit val codec = Codec("UTF-8")
+    codec.onMalformedInput(CodingErrorAction.REPLACE)
+    codec.onUnmappableCharacter(CodingErrorAction.REPLACE)
+    var MovieNames:Map[Int,String] = Map()
+    val lines = Source.fromFile("../ml-100k/u.item").getLines()
+    for (line <- lines) {
+      var fields = line.split('|')
+      if(fields.length > 1) {
+
+        MovieNames += (fields(0).toInt -> fields(1))
+
+      }
+    }
+    return MovieNames
+  }
   def main(args: Array[String]): Unit = {
 
     Logger.getLogger("org").setLevel(Level.ERROR)
@@ -20,6 +41,11 @@ object MostPopularMovie {
       .master("local[*]")               // only for demo and testing purposes, use spark-submit instead
       .config("spark.sql.warehouse.dir", "target/spark-warehouse")
       .getOrCreate()
+
+//    create broadcast variable
+    var nameDic = spark.sparkContext.broadcast(LoadMovieNames)
+
+
 
     val lines = spark.sparkContext.textFile("../ml-100k/u.data")
     val mostPopularMovies = lines.map(returnMovie)
@@ -30,9 +56,12 @@ object MostPopularMovie {
 //      sort
       .sortByKey(false)
 //      reverse back
-      .map(x => (x._2,x._1))
+      .map(x => (x._2.toInt,x._1))
 
-    val df = spark.createDataFrame(mostPopularMovies).toDF("Movie","RaitedTimes")
+    val MovieWithName = mostPopularMovies.map(x => (x._1,x._2,nameDic.value(x._1)))
+
+
+    val df = spark.createDataFrame(MovieWithName).toDF("Movie","RaitedTimes","Movie Name")
     df.show()
   }
 }

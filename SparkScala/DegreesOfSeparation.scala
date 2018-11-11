@@ -169,7 +169,7 @@ object DegreesOfSeparation {
     // Our accumulator, used to signal when we find the target 
     // character in our BFS traversal.
     hitCounter = Some(sc.longAccumulator("Hit Counter"))
-    
+
     var iterationRdd = createStartingRdd(sc)
     
     var iteration:Int = 0

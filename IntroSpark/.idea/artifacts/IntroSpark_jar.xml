@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="IntroSpark:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/IntroSpark_jar</output-path>
+    <root id="archive" name="IntroSpark.jar">
+      <element id="module-output" name="IntroSpark" />
+      <element id="library" level="module" name="sbt: unmanaged-sources-and-docs" module-name="IntroSpark" />
+      <element id="extracted-dir" path="$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -1,18 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="IntroSpark:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c3122951-e8fd-4cf2-9408-12502962b448" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/MostPopularMovie.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/avarageByName.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/custumerSpendings.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/minTemps.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/wordCount.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/IntroSpark_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_chuusai_shapeless_2_11_2_3_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_fommil_netlib_core_1_1_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_rwl_jtransforms_2_4_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__net_sf_opencsv_opencsv_2_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__net_sourceforge_f2j_arpack_combined_all_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_graphx_2_11_2_2_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_mllib_2_11_2_2_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_mllib_local_2_11_2_2_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_streaming_2_11_2_2_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_jpmml_pmml_model_1_2_15_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_jpmml_pmml_schema_1_2_15_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalanlp_breeze_2_11_0_13_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalanlp_breeze_macros_2_11_0_13_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_spire_math_spire_2_11_0_13_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_spire_math_spire_macros_2_11_0_13_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_typelevel_machinist_2_11_0_6_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_typelevel_macro_compat_2_11_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/Correlation.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/DegreeesOfSeparation.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/MostPopularSuperHero.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/MovieSimilarities.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Intro/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Intro/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/IntroSpark.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/IntroSpark.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/dzmitry/spark/avarageAge$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/dzmitry/spark/avarageAge$$anonfun$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/dzmitry/spark/avarageAge$$anonfun$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/dzmitry/spark/avarageAge$$anonfun$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/dzmitry/spark/avarageAge$$anonfun$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/dzmitry/spark/avarageAge$$anonfun$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/dzmitry/spark/avarageAge$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/dzmitry/spark/avarageAge$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9966c8a13509d3093084$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9966c8a13509d3093084.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9966c8a13509d3093084.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/MostPopularMovie.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/MostPopularMovie.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/dzmitry/spark/MostPopularMovie$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/dzmitry/spark/MostPopularMovie$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/dzmitry/spark/MostPopularMovie$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/dzmitry/spark/MostPopularMovie$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/dzmitry/spark/MostPopularMovie$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/dzmitry/spark/MostPopularMovie$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/dzmitry/spark/MostPopularMovie$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/dzmitry/spark/MostPopularMovie$$anonfun$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/dzmitry/spark/MostPopularMovie$$typecreator1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/dzmitry/spark/MostPopularMovie$$typecreator1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/dzmitry/spark/MostPopularMovie$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/dzmitry/spark/MostPopularMovie$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/com/dzmitry/spark/MostPopularMovie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/com/dzmitry/spark/MostPopularMovie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/com.dzmitrydubarau/introspark$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/com.dzmitrydubarau/introspark$sources/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/com.dzmitrydubarau/introspark$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/com.dzmitrydubarau/introspark$sources/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/com.dzmitrydubarau/introspark_2.11/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/com.dzmitrydubarau/introspark_2.11/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/com.dzmitrydubarau/introspark_2.11/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/com.dzmitrydubarau/introspark_2.11/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SparkScala/DegreesOfSeparation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkScala/DegreesOfSeparation.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,6 +95,28 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/../SparkScala/DegreesOfSeparation.scala">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="2560">
+                    <caret line="128" column="22" selection-start-line="128" selection-start-column="22" selection-end-line="128" selection-end-column="22" />
+                    <folding>
+                      <element signature="e#34#59#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -40,27 +134,29 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="1" />
-          <entry key="sbt" value="8" />
-          <entry key="scala" value="19" />
+          <entry key="part-00000" value="1" />
+          <entry key="part-00001" value="1" />
+          <entry key="sbt" value="9" />
+          <entry key="scala" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Scala" value="19" />
-          <entry key="sbt" value="8" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Scala" value="32" />
+          <entry key="sbt" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="sbt" value="28" />
-          <entry key="scala" value="5788" />
+          <entry key="sbt" value="29" />
+          <entry key="scala" value="7363" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Scala" value="5788" />
-          <entry key="sbt" value="28" />
+          <entry key="Scala" value="7363" />
+          <entry key="sbt" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -72,22 +168,22 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/avarageByName.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/MostPopularSuperHero.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="37" column="4" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="50" />
+            <state relative-caret-position="270">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="46" selection-end-column="20" />
               <folding>
-                <element signature="e#69#108#0" expanded="true" />
+                <element signature="e#27#68#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/minTemps.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/DegreeesOfSeparation.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="20" selection-start-line="20" selection-end-line="25" selection-end-column="20" />
+            <state relative-caret-position="230">
+              <caret line="157" selection-start-line="157" selection-end-line="161" selection-end-column="20" />
               <folding>
                 <element signature="e#27#66#0" expanded="true" />
               </folding>
@@ -96,35 +192,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/wordCount.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/MovieSimilarities.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="14" selection-end-column="20" />
+            <state relative-caret-position="654">
+              <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
               <folding>
-                <element signature="e#27#66#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/custumerSpendings.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="27" selection-start-line="27" selection-end-line="32" selection-end-column="20" />
-              <folding>
-                <element signature="e#27#66#0" expanded="true" />
-                <element signature="e#1871#1914#0" expanded="true" />
+                <element signature="e#27#68#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/MostPopularMovie.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/Correlation.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
-              <caret line="34" column="81" lean-forward="true" selection-start-line="34" selection-start-column="81" selection-end-line="34" selection-end-column="81" />
+              <caret line="25" column="62" lean-forward="true" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
               <folding>
                 <element signature="e#27#66#0" expanded="true" />
               </folding>
@@ -133,31 +216,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/Raiting.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="64" />
-              <folding>
-                <element signature="e#26#66#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../SparkScala/WordCountBetter.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="25" column="54" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../SparkScala/MinTemperatures.scala">
+        <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="36" selection-start-line="36" selection-end-line="49" selection-end-column="5" />
+              <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movie-sims/part-00000">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movie-sims/part-00001">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SparkScala/MovieSimilarities.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="32" selection-start-column="32" selection-end-column="32" />
+              <folding>
+                <element signature="e#34#59#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -172,6 +256,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>convertToBFS</find>
+      <find>createStartingRdd</find>
+      <find>5306</find>
+      <find>Loading movie names</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -181,7 +273,6 @@
         <option value="$PROJECT_DIR$/../SparkScala/sbt/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/RatingsCounter.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Raiting.scala" />
-        <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/Raiting.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/avarageAge.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/avarageByName.scala" />
@@ -189,6 +280,13 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/wordCount.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/custumerSpendings.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/MostPopularMovie.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/MostPopularSuperHero.scala" />
+        <option value="$PROJECT_DIR$/../SparkScala/DegreesOfSeparation.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/DegreeesOfSeparation.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/MovieSimilarities.scala" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/Corellation.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/Correlation.scala" />
       </list>
     </option>
   </component>
@@ -222,6 +320,11 @@
             <path>
               <item name="IntroSpark" type="b2602c69:ProjectViewProjectNode" />
               <item name="IntroSpark" type="462c0819:PsiDirectoryNode" />
+              <item name="movie-sims" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IntroSpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IntroSpark" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -248,6 +351,12 @@
             <path>
               <item name="IntroSpark" type="b2602c69:ProjectViewProjectNode" />
               <item name="IntroSpark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IntroSpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IntroSpark" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -265,11 +374,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541890494767" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541969112384" />
     <property name="last_opened_file_path" value="C:/opt/spark/spark-2.2.1-bin-hadoop2.7/jars/zookeeper-3.4.6.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.5850575" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -286,10 +395,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MostPopularMovie">
-    <configuration name="MostPopularMovie" type="Application" factoryName="Application" temporary="true">
+  <component name="RunManager" selected="Application.Correlation">
+    <configuration name="Correlation" type="Application" factoryName="Application" temporary="true">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.dzmitry.spark.MostPopularMovie" />
+      <option name="MAIN_CLASS_NAME" value="com.dzmitry.spark.Correlation" />
       <module name="IntroSpark" />
       <option name="ENABLE_SWING_INSPECTOR" value="true" />
       <extension name="coverage">
@@ -302,23 +411,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="avarageByName" type="Application" factoryName="Application" temporary="true">
+    <configuration name="DegreeesOfSeparation" type="Application" factoryName="Application" temporary="true">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.dzmitry.spark.avarageByName" />
-      <module name="IntroSpark" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dzmitry.spark.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="custumerSpendings" type="Application" factoryName="Application" temporary="true">
-      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.dzmitry.spark.custumerSpendings" />
+      <option name="MAIN_CLASS_NAME" value="com.dzmitry.spark.DegreeesOfSeparation" />
       <module name="IntroSpark" />
       <option name="ENABLE_SWING_INSPECTOR" value="true" />
       <extension name="coverage">
@@ -331,9 +426,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="minTemps" type="Application" factoryName="Application" temporary="true">
+    <configuration name="MostPopularSuperHero" type="Application" factoryName="Application" temporary="true">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.dzmitry.spark.minTemps" />
+      <option name="MAIN_CLASS_NAME" value="com.dzmitry.spark.MostPopularSuperHero" />
       <module name="IntroSpark" />
       <option name="ENABLE_SWING_INSPECTOR" value="true" />
       <extension name="coverage">
@@ -346,10 +441,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="wordCount" type="Application" factoryName="Application" temporary="true">
+    <configuration name="MostPopularSuperhero" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.sundogsoftware.spark.MostPopularSuperhero" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sundogsoftware.spark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieSimilarities" type="Application" factoryName="Application" temporary="true">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.dzmitry.spark.wordCount" />
+      <option name="MAIN_CLASS_NAME" value="com.dzmitry.spark.MovieSimilarities" />
       <module name="IntroSpark" />
+      <option name="PROGRAM_PARAMETERS" value="50" />
       <option name="ENABLE_SWING_INSPECTOR" value="true" />
       <extension name="coverage">
         <pattern>
@@ -362,19 +470,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.avarageByName" />
-      <item itemvalue="Application.minTemps" />
-      <item itemvalue="Application.wordCount" />
-      <item itemvalue="Application.custumerSpendings" />
-      <item itemvalue="Application.MostPopularMovie" />
+      <item itemvalue="Application.MostPopularSuperHero" />
+      <item itemvalue="Application.MostPopularSuperhero" />
+      <item itemvalue="Application.DegreeesOfSeparation" />
+      <item itemvalue="Application.MovieSimilarities" />
+      <item itemvalue="Application.Correlation" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MostPopularMovie" />
-        <item itemvalue="Application.custumerSpendings" />
-        <item itemvalue="Application.wordCount" />
-        <item itemvalue="Application.minTemps" />
-        <item itemvalue="Application.avarageByName" />
+        <item itemvalue="Application.Correlation" />
+        <item itemvalue="Application.MovieSimilarities" />
+        <item itemvalue="Application.DegreeesOfSeparation" />
+        <item itemvalue="Application.MostPopularSuperHero" />
+        <item itemvalue="Application.MostPopularSuperhero" />
       </list>
     </recent_temporary>
   </component>
@@ -405,7 +513,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/build.sbt" value="4056028543" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="2569593897" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="2125951362" />
       </map>
     </option>
@@ -420,7 +528,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541386364714</updated>
-      <workItem from="1541386368208" duration="24639000" />
+      <workItem from="1541386368208" duration="37745000" />
     </task>
     <servers />
   </component>
@@ -430,7 +538,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24639000" />
+    <option name="totallyTimeSpent" value="37745000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -442,9 +550,9 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
       <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1881663" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1881663" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Build" weight="0.329718" />
+      <window_info anchor="bottom" id="Build" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" />
       <window_info anchor="bottom" id="Terminal" weight="0.324295" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -454,7 +562,7 @@
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34815618" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35683298" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -556,13 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../fakefriends.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -587,44 +688,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/avarageByName.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="37" column="4" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="50" />
-          <folding>
-            <element signature="e#69#108#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/minTemps.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="20" selection-start-line="20" selection-end-line="25" selection-end-column="20" />
-          <folding>
-            <element signature="e#27#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../SparkScala/WordCountBetter.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="25" column="54" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/package.scala">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/custumerSpendings.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="27" selection-start-line="27" selection-end-line="32" selection-end-column="20" />
-          <folding>
-            <element signature="e#27#66#0" expanded="true" />
-            <element signature="e#1871#1914#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -648,10 +715,144 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/MostPopularMovie.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/package.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/custumerSpendings.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-407">
+          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="e#27#66#0" expanded="true" />
+            <element signature="e#1871#1914#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/avarageByName.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="34" column="81" lean-forward="true" selection-start-line="34" selection-start-column="81" selection-end-line="34" selection-end-column="81" />
+          <caret line="37" column="4" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="50" />
+          <folding>
+            <element signature="e#69#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/minTemps.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="20" selection-start-line="20" selection-end-line="25" selection-end-column="20" />
+          <folding>
+            <element signature="e#27#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/MostPopularMovie.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="50" column="49" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="49" />
+          <folding>
+            <element signature="e#27#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SparkScala/MostPopularSuperhero.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="42" column="16" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SparkScala/DegreesOfSeparation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2560">
+          <caret line="128" column="22" selection-start-line="128" selection-start-column="22" selection-end-line="128" selection-end-column="22" />
+          <folding>
+            <element signature="e#34#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SparkScala/MovieRecommendationsALS.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="39" column="4" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+          <folding>
+            <element signature="e#34#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/DegreeesOfSeparation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="157" selection-start-line="157" selection-end-line="161" selection-end-column="20" />
+          <folding>
+            <element signature="e#27#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SparkScala/MovieSimilarities.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+          <folding>
+            <element signature="e#34#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-sims/part-00000">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-sims/part-00001">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/Corellation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" selection-start-line="6" selection-end-line="21" selection-end-column="3" />
+          <folding>
+            <element signature="e#26#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/MovieSimilarities.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
+          <folding>
+            <element signature="e#27#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/MostPopularSuperHero.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="46" selection-end-column="20" />
+          <folding>
+            <element signature="e#27#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/dzmitry/spark/Correlation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="25" column="62" lean-forward="true" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
           <folding>
             <element signature="e#27#66#0" expanded="true" />
           </folding>
@@ -664,10 +865,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>IntroSpark:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.5850575" />
+                <option value="0.2735632" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
