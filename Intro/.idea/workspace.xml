@@ -2,84 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bc020e0-db76-4ea6-a33a-0f83502d2950" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../IntroSpark/.idea/artifacts/IntroSpark_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IntroSpark/.idea/libraries/sbt__com_chuusai_shapeless_2_11_2_3_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IntroSpark/.idea/libraries/sbt__com_github_fommil_netlib_core_1_1_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IntroSpark/.idea/libraries/sbt__com_github_rwl_jtransforms_2_4_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IntroSpark/.idea/libraries/sbt__net_sf_opencsv_opencsv_2_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IntroSpark/.idea/libraries/sbt__net_sourceforge_f2j_arpack_combined_all_0_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IntroSpark/.idea/libraries/sbt__org_apache_spark_spark_graphx_2_11_2_2_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IntroSpark/.idea/libraries/sbt__org_apache_spark_spark_mllib_2_11_2_2_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IntroSpark/.idea/libraries/sbt__org_apache_spark_spark_mllib_local_2_11_2_2_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IntroSpark/.idea/libraries/sbt__org_apache_spark_spark_streaming_2_11_2_2_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IntroSpark/.idea/libraries/sbt__org_jpmml_pmml_model_1_2_15_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IntroSpark/.idea/libraries/sbt__org_jpmml_pmml_schema_1_2_15_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IntroSpark/.idea/libraries/sbt__org_scalanlp_breeze_2_11_0_13_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IntroSpark/.idea/libraries/sbt__org_scalanlp_breeze_macros_2_11_0_13_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IntroSpark/.idea/libraries/sbt__org_spire_math_spire_2_11_0_13_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IntroSpark/.idea/libraries/sbt__org_spire_math_spire_macros_2_11_0_13_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IntroSpark/.idea/libraries/sbt__org_typelevel_machinist_2_11_0_6_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IntroSpark/.idea/libraries/sbt__org_typelevel_macro_compat_2_11_1_1_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IntroSpark/src/main/scala/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IntroSpark/src/main/scala/com/dzmitry/spark/Correlation.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IntroSpark/src/main/scala/com/dzmitry/spark/DegreeesOfSeparation.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IntroSpark/src/main/scala/com/dzmitry/spark/MostPopularSuperHero.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IntroSpark/src/main/scala/com/dzmitry/spark/MovieSimilarities.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntroSpark/src/main/scala/com/dzmitry/spark/DataFrames.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntroSpark/src/main/scala/com/dzmitry/spark/PoplulatMoviesDataset.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IntroSpark/src/main/scala/com/dzmitry/spark/SparkSQL.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/.idea/modules/IntroSpark.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/.idea/modules/IntroSpark.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../IntroSpark/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/project/target/config-classes/$9966c8a13509d3093084$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/project/target/config-classes/$9966c8a13509d3093084.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/project/target/config-classes/$9966c8a13509d3093084.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/src/main/scala/com/dzmitry/spark/MostPopularMovie.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/src/main/scala/com/dzmitry/spark/MostPopularMovie.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/.history" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/classes/com/dzmitry/spark/MostPopularMovie$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/classes/com/dzmitry/spark/MostPopularMovie$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/classes/com/dzmitry/spark/MostPopularMovie$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/classes/com/dzmitry/spark/MostPopularMovie$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/classes/com/dzmitry/spark/MostPopularMovie$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/classes/com/dzmitry/spark/MostPopularMovie$$anonfun$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/classes/com/dzmitry/spark/MostPopularMovie$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/classes/com/dzmitry/spark/MostPopularMovie$$anonfun$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/classes/com/dzmitry/spark/MostPopularMovie$$typecreator1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/classes/com/dzmitry/spark/MostPopularMovie$$typecreator1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/classes/com/dzmitry/spark/MostPopularMovie$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/classes/com/dzmitry/spark/MostPopularMovie$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/classes/com/dzmitry/spark/MostPopularMovie.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/classes/com/dzmitry/spark/MostPopularMovie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/com.dzmitrydubarau/introspark$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/com.dzmitrydubarau/introspark$sources/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/com.dzmitrydubarau/introspark$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/com.dzmitrydubarau/introspark$sources/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/com.dzmitrydubarau/introspark_2.11/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/com.dzmitrydubarau/introspark_2.11/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/com.dzmitrydubarau/introspark_2.11/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/com.dzmitrydubarau/introspark_2.11/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark$sources-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/resolution-cache/reports/com.dzmitrydubarau-introspark_2.11-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/streams/$global/update/$global/streams/update_cache_2.11/output" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SparkScala/DegreesOfSeparation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../SparkScala/DegreesOfSeparation.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntroSpark/src/main/scala/com/dzmitry/spark/Correlation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/src/main/scala/com/dzmitry/spark/Correlation.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/classes/com/dzmitry/spark/Correlation$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../IntroSpark/target/scala-2.11/classes/com/dzmitry/spark/Correlation$.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -100,6 +29,7 @@
     <session id="1365158818">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -166,7 +96,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Testing.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="194">
               <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
             </state>
           </provider>
@@ -280,7 +210,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541969112331" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541986257933" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -408,7 +338,7 @@
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3394794" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3394794" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -503,7 +433,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Testing.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="194">
           <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
         </state>
       </provider>

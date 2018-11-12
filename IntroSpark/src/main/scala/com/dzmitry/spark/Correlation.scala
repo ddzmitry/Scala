@@ -22,10 +22,25 @@ object Correlation {
     )
     import spark.implicits._
     val df = data.map(Tuple1.apply).toDF("features")
+    df.show()
     val Row(coeff1: Matrix) = org.apache.spark.ml.stat.Correlation.corr(df, "features").head
     println("Pearson correlation matrix:\n" + coeff1.toString)
 
     val Row(coeff2: Matrix) = org.apache.spark.ml.stat.Correlation.corr(df, "features", "spearman").head
     println("Spearman correlation matrix:\n" + coeff2.toString)
+//    import org.apache.spark.sql.streaming.Trigger
+
+
+//    val df = spark.read.load("C:\\Users\\ddzmi\\Desktop\\Tutoring Trilogy\\ReactVr\\Basics\\package.json")
+//    df.schema
+//    val input = spark.readStream.json("C:\\Users\\ddzmi\\Desktop\\Tutoring Trilogy\\ReactVr\\Basics\\package.json")
+////    input.show()
+//    input.writeStream
+//      .format("console")
+//      .trigger(Trigger.Continuous("1 second"))
+//      .start()
+//
+//    input.awaitTermination()
+
   }
 }
